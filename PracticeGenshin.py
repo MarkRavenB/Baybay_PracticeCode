@@ -1,5 +1,13 @@
 class Genshin:
     def __init__(self):
+        
+        #Enter the same amount in HP and Base Hp as well as in the ATK and Base ATK
+        '''For Example Enter Base HP: 32000
+                       Enter HP: 32000
+                       Enter Base ATK: 1100
+                       Enter ATK: 1100
+        '''
+        
         self.HP = int(input('Enter HP: '))
         self.ATK = int(input('Enter ATK: '))
         self.PyroDmgBonus = int(input('Enter Pyro Damage Bonus: '))
@@ -15,6 +23,10 @@ class Genshin:
         print('HuTao\'s HP decreases and ATK increases')
         self.HP = self.HP - (self.HP * 0.15)
         self.ATK = self.ATK + (self.ATK * 0.10)
+        if self.HP < self.BaseHP/2:
+            self.PyroDmgBonus = self.PyroDmgBonus + 33
+            print('HuTao\'s HP is below 50%, Pyro Damage Bonus increased by 33%')
+            print('Pyro Damage Bonus: ', self.PyroDmgBonus)
         print('Current HP: ', self.HP)
         print('Current ATK: ', self.ATK)
 

@@ -1,6 +1,7 @@
 # Baybay_PracticeCode
 <h1 align="center">Hi 👋, I'm Mark Raven Baybay</h1>
 <h3 align="center">A BSIT Student from Batangas State University - Alangilan Campus</h3>
+![Character (1)](https://user-images.githubusercontent.com/116793842/206900131-65ed0ece-4392-4ebd-b244-62c33d0b108b.png)
 
 
 <h3 align="left">Languages and Tools:</h3>
